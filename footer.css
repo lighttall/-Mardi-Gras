@@ -1,0 +1,50 @@
+footer {
+  background: #303030;
+  padding: 16px;
+}
+
+.icons-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 4px;
+  color: white;
+}
+
+.icons-container i {
+  margin-right: 5px;
+}
+
+.icons-container a {
+  color: unset;
+}
+
+hr {
+  background-color: #5f5f5f;
+  padding: 0;
+  margin: 10px 0;
+}
+
+.info-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 4px;
+  max-width: 500px;
+  color: white;
+  margin: 0 auto;
+  text-align: center;
+}
+/*# sourceMappingURL=footer.css.map */

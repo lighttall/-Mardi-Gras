@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
+    <link href="./style.css" rel="stylesheet" />
+    <link href="./contact.css" rel="stylesheet" />
+    <script src="./loadNavbarAndFooter.js" defer></script>
+    <script src="./contact.js" defer></script>
+  </head>
+  <body>
+    <div id="navigation"></div>
+    <div id="content">
+      <!--Section: Contact v.2-->
+      <section class="mb-4 text-warning bg-dark">
+        <!--Section heading-->
+        <h2 class="h1-responsive font-weight-bold text-center my-4">
+          Contact us
+        </h2>
+        <!--Section description-->
+        <p class="text-center w-responsive mx-auto mb-5">
+          \If you have any questions about this Privacy Policy, the practices of
+          this site, or your dealings with this site, please contact us at:
+        </p>
+
+        <div class="row">
+          <!--Grid column-->
+          <div class="col-md-9 mb-md-0 mb-5">
+            <form
+              id="contact-form"
+              name="contact-form"
+              action="mail.php"
+              method="POST"
+            >
+              <!--Grid row-->
+              <div class="row">
+                <!--Grid column-->
+                <div class="col-md-6">
+                  <div class="md-form mb-0">
+                    <input
+                      type="text"
+                      id="name"
+                      name="name"
+                      class="form-control"
+                      placeholder="Your name"
+                    />
+                    <label for="name" class="">Your name</label>
+                  </div>
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-md-6">
+                  <div class="md-form mb-0">
+                    <input
+                      type="text"
+                      id="email"
+                      name="email"
+                      class="form-control holder"
+                      placeholder="your email"
+                    />
+                    <label for="email" class="">Your email</label>
+                  </div>
+                </div>
+                <!--Grid column-->
+              </div>
+              <!--Grid row-->
+
+              <!--Grid row-->
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="md-form mb-0">
+                    <input
+                      type="text"
+                      id="subject"
+                      name="subject"
+                      class="form-control"
+                      placeholder="Subject"
+                    />
+                    <label for="subject" class="">Subject</label>
+                  </div>
+                </div>
+              </div>
+              <!--Grid row-->
+
+              <!--Grid row-->
+              <div class="row">
+                <!--Grid column-->
+                <div class="col-md-12">
+                  <div class="md-form">
+                    <textarea
+                      type="text"
+                      id="message"
+                      name="message"
+                      rows="2"
+                      class="form-control md-textarea"
+                      placeholder="Your message"
+                    ></textarea>
+                    <label for="message">Your message</label>
+                  </div>
+                </div>
+              </div>
+              <!--Grid row-->
+            </form>
+
+            <div class="text-center text-md-left">
+              <a class="btn btn-primary btn-primary" onclick="validateForm();"
+                >Send</a
+              >
+            </div>
+            <div class="status"></div>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-md-3 text-center">
+            <ul class="list-unstyled mb-0">
+              <li>
+                <i class="fas fa-map-marker-alt fa-2x"></i>
+                <p>
+                  <a
+                    href="http://1380 Port of New Orleans Place New Orleans, LA 70130"
+                    >1380 Port of New Orleans Place New Orleans, LA 70130</a
+                  >
+                </p>
+              </li>
+
+              <li>
+                <i class="fas fa-phone mt-4 fa-2x"></i>
+                <p><a href="tel:+01 234 567 89">504-655-9586</a> +</p>
+              </li>
+
+              <li>
+                <i class="fas fa-envelope mt-4 fa-2x"></i>
+                <p>
+                  <a href="mailto:info@mardigrasworld.com"
+                    >info@mardigrasworld.com</a
+                  >
+                </p>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+        </div>
+      </section>
+      <!--Section: Contact v.2-->
+    </div>
+    <div id="footer"></div>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Henny+Penny&family=Pattaya&display=swap");
+* {
+  font-family: "Pattaya";
+  font-family: "Henny Penny";
+  font-family: "Roboto", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+@media (min-width: 991px) {
+  #content {
+    padding-top: 50px;
+  }
+}
+
+html {
+  font-family: "Pattaya";
+  font-family: "Henny Penny";
+  font-family: "Roboto", sans-serif;
+}
+
+#content h1 {
+  text-align: center;
+  padding-top: 50px;
+  color: #f2f2f2;
+  font-family: "Pattaya";
+  padding-bottom: 3rem;
+  background-color: #ec5353;
+}
+
+#content .btn-link {
+  font-family: "Henny Penny";
+  font-weight: bold;
+  color: #0d0d0d;
+}
+
+#content .card-body {
+  font-weight: bold;
+  background-color: rgba(247, 182, 63, 0.986);
+}
+/*# sourceMappingURL=FAQ.css.map */

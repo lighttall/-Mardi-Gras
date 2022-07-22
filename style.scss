@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Henny+Penny&family=Pattaya&display=swap");
+
+* {
+  font-family: "Pattaya";
+  font-family: "Henny Penny";
+  font-family: "Roboto", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+// # Phone
+// only screen and
+// # Tablet
+// only screen and (min-width:321px) and (max-width:768px)
+// # Desktop
+// only screen and (min-width:769px)
+
+$phone-breakpoint: 990px;
+$desktop-breakpoint: 991px;
+
+@media (max-width: $phone-breakpoint) {
+}
+
+@media (min-width: $desktop-breakpoint) {
+  #content {
+    padding-top: 50px;
+  }
+}
+
+$colorp: #9453a6;
+$colorg: #8cbf3f;
+$colory: #f2cc07;
+$colorw: #f2f2f2;
+$colorb: #0d0d0d;
+
+.navbar-dark .navbar-nav .nav-link {
+  color: rgba(255, 255, 255, 1) !important;
+}

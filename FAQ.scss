@@ -1,0 +1,42 @@
+@import "./style.scss";
+
+@media (max-width: $phone-breakpoint) {
+}
+
+@media (min-width: $desktop-breakpoint) {
+}
+
+html {
+  font-family: "Pattaya";
+  font-family: "Henny Penny";
+  font-family: "Roboto", sans-serif;
+}
+
+$colorp: #9453a6;
+$colorg: #8cbf3f;
+$colory: #f2cc07;
+$colorw: #f2f2f2;
+$colorb: #0d0d0d;
+
+#content {
+  h1 {
+    text-align: center;
+    padding-top: 50px;
+    color: #f2f2f2;
+    font-family: "Pattaya";
+    padding-bottom: 3rem;
+    background-color: rgb(236, 83, 83);
+  }
+  .btn-link {
+    font-family: "Henny Penny";
+    font-weight: bold;
+    color: $colorb;
+  }
+  .card-body {
+    font-weight: bold;
+    background-color: rgba(247, 182, 63, 0.986);
+  }
+  //   h5 {
+  //     font-family: "Henny Penny";
+  //   }
+}

@@ -1,0 +1,42 @@
+@import "./style.scss";
+
+.row {
+  margin: 0 !important;
+}
+
+.row a {
+  padding: 0 !important;
+}
+
+@media (max-width: $phone-breakpoint) {
+  form label {
+    display: none;
+  }
+}
+
+@media (min-width: $desktop-breakpoint) {
+}
+
+html {
+  font-family: "Pattaya";
+  font-family: "Henny Penny";
+  font-family: "Roboto", sans-serif;
+}
+
+$colorp: #9453a6;
+$colorg: #8cbf3f;
+$colory: #f2cc07;
+$colorw: #f2f2f2;
+$colorb: #0d0d0d;
+
+h2 {
+  text-transform: uppercase;
+  font-family: "Henny Penny";
+  padding-top: 33px;
+}
+.row {
+  text-align: center;
+}
+.form-control {
+  text-align: center;
+}
